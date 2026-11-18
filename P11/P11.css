@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+.newspaper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+}
+
+header {
+    grid-column: 1 / 4;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+article {
+    padding: 15px;
+    border: 1px solid grey;
+}
+
+aside {
+    padding: 15px;
+    background-color: lightgrey;
+}
